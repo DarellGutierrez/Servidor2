@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="./stylesRegister.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <form action="/registrar" method="post" class="form-box animate__animated animate__fadeInUp"> 
+        <h1 class="form-title">Registro</h1>
+        <div class="section"> 
+            <div class="title">Nombre</div>
+            <div class="field"><input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre"></div>
+            <i class='bx bx-id-card'></i>
+        </div>
+        <div class="section"> 
+            <div class="title">Correo</div>
+            <div class="field"><input type="text" id="correo" name="correo" placeholder="ingrese su correo"></div>
+            <i class='bx bx-user'></i>
+        </div>
+        <div class="section">
+            <div class="title">CONTRASEÑA</div>
+            <div class="field"><input type="password" id="contrasenha" name="contrasenha" placeholder="ingrese su contraseña"></div>
+            <i class='bx bxs-lock-alt' ></i> <!--simbolo-->
+        </div>
+        <div class="section">
+            <div class="button"><input type="submit" value="Registrar usuario"></div>
+        </div>
+        <div> 
+           <button type="button" ><a href="login.html">Volver</a></button>
+        </div>
+
+        <div class="login-link">
+            <p>¿Ya tienes una cuenta?<a href="login.html">Iniciar sesión</a></p>
+        </div>
+        <div class="logo">
+            <figure>
+                <img src="12.png" alt="logo de canal12" width="75px" height="75px"/>
+                <p>Canal 12</p>
+            </figure>
+        </div>
+    </form>
+    
+</body>
+</html>

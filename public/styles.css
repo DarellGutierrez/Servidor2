@@ -1,0 +1,68 @@
+body {
+    background-color: #e6dff8;
+
+}
+header {
+    background-color: #000000;
+}
+
+.logo, nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.main-container a {
+    text-decoration: none;
+}
+
+.main-container .btn {
+    border-radius: 0;
+}
+
+.enlace-verde, .enlace-azul, .enlace-amarillo {
+    height: 85vh;
+    width: 350px;
+    color: rgb(215, 213, 213);
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlace-verde {
+    background: linear-gradient(#bf3f09, #829ca7);
+}
+
+.enlace-azul {
+    background: linear-gradient(#0b4e6b, #829ca7);
+}
+
+.enlace-amarillo {
+    background: linear-gradient(#0c6e29, #829ca7);
+}
+
+.espacio {
+    word-spacing: 10px;
+}
+
+.btn-ingresar,
+.btn-registrarse {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-ingresar {
+    background-color: rgb(206, 126, 34); 
+    border-color: #947a05; 
+    color: #fff; 
+}
+
+.btn-registrarse {
+    background-color: #598cc2; 
+    border-color: #124a86; 
+    color: #fff; 
+}

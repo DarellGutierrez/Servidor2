@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cvotacion</title>
+    <link rel="stylesheet" href="stylesVotacion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <form action="/votacionCreada" method="post" class="form-box animate__animated animate__fadeInUp"> 
+        <h1 class="form-title">Crear votacion</h1>
+        <div class="input-box"> 
+            <label>Nombre de la votación</label>
+            <div class="field"><input type="text" id="titulo" name="titulo" placeholder="Ingrese el nombre"></div>
+        </div>
+        <div class="input-box"> 
+            <label>OPCIÓN 1</label>
+            <div class="field"><input type="text" id="candidatoUno" name="candidatoUno" placeholder="Ingrese su opción"></div>
+        </div>
+        <div class="input-box">
+            <label>OPCIÓN 2</label>
+            <div class="field"><input type="text" id="candidatoDos" name="candidatoDos" placeholder="Ingrese su opción"></div>
+        </div>
+        <div class="input-box">
+            <label>OPCIÓN 3</label>
+            <div class="field"><input type="text" id="candidatoTres" name="candidatoTres" placeholder="Ingrese su opción"></div>
+        </div>
+        <div class="input-box">
+            <label>Fecha de cierre</label>
+            <div class="field"><input type="text" id="fechaCierre" name="fechaCierre" placeholder="Jun 15, 2012"></div>
+        </div>
+        <div>
+            <div class="button"><input type="submit" value="Ingresar Opciones"></div>
+            
+        </div>
+        <div> 
+            <button type="button" ><a href="index.html">Volver</a></button>
+        </div>
+        <div class="logo">
+            <figure>
+                <img src="12.png" alt="logo de canal12" width="75px" height="75px"/>
+                <p>Canal 12</p>
+            </figure>
+        </div>
+        
+    </form>
+ 
+    
+</body>
+</html>

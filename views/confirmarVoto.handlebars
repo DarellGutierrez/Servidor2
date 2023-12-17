@@ -1,0 +1,17 @@
+<form action="/sumarUnVoto" method="post">
+    <h2>Votacion Gran Hermano</h2>
+    <div class="border">
+        <div>
+            <span><h4>ELIMINACION DEL PROXIMO PARTICIPANTE</h4></span>
+        </div class="section"> 
+            <Span><h4>{{votacion.candidatoUno.nombre}},   votos: {{votacion.candidatoUno.votos}}</h4><button class="vote-button" data-votacion="{{votacion._id}}" data-opcion="opcion1">Votar por la opcion 1</button></Span>
+            <Span><h4>{{votacion.candidatoDos.nombre}},   votos: {{votacion.candidatoDos.votos}}</h4><button class="vote-button" data-votacion="{{votacion._id}}" data-opcion="opcion2">Votar por la opcion 2</button></Span>
+            <Span><h4>{{votacion.candidatoTres.nombre}},   votos: {{votacion.candidatoTres.votos}}</h4><button class="vote-button" data-votacion="{{votacion._id}}" data-opcion="opcion3">Votar por la opcion 3</button></Span>
+            <span><h4>ESTADO DE LA VOTACION: ABIERTA</h4></span>
+        </div>   
+        <div class="Volver">
+            <a href="/"class="enlace-Volver">Volver Al Inicio</a>
+            <a href="/votar"class="enlace-Volver">Atras</a>
+        </div>
+</form>
+<script src="script.js"></script>

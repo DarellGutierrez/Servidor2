@@ -1,0 +1,13 @@
+body,html{
+    height: 100%   ;
+ }
+ body{
+    margin: 0;
+    padding: 35px;
+    background-image:url(img2.jpg) ;
+    background-position: center;
+    background-size: cover;
+ }
+ .Candidatospad {
+    margin-top: 30px;
+ }

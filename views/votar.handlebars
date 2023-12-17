@@ -1,0 +1,26 @@
+<h1>Votaciones
+
+</h1>
+    <div>
+    <table class="tabla1">
+        <tr> 
+            <th>Id de la votacion</th>
+            <th>Nombre De la Votacion</th>
+            <th>Estado de la votacion</th>
+            <th>           </th>
+        </tr>
+    {{#each votaciones}}
+    <tr>
+        <td>{{titulo}}</td>
+        <td>{{fecha}}</td>
+        <td>{{fechaCierre}}</td>
+        <td><a href="/votar/{{_id}}">Ver detalle</a></td>
+
+    </tr>
+    {{/each}}
+    </table>
+</div>
+<div class="Volver">
+    <a href="index.html"class="enlace-Volver">Volver Al Inicio</a>
+</div>
+</main>
